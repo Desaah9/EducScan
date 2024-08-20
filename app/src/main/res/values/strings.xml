@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">EducScan</string>
+    <string name="title_home">Calendrier</string>
+    <string name="title_camembert">Proportion Présents/Absents</string>
+    <string name="title_logo_camembert">Proportion</string>
+    <string name="title_dashboard">QRcode</string>
+    <string name="title_listes">Listes des Présents/Absents</string>
+    <string name="title_logo_listes">Listes</string>
+    <string name="title_parametres">Paramètres</string>
+    <string name="title_button_login">Connexion</string>
+    <string name="already_user">Déjà utilisateur? Connecte toi</string>
+    <string name="first_name">Prénom et nom</string>
+    <string name="title_chpwd">Changer le Mot de Passe</string>
+    <string name="button_chpwd">Confirmer</string>
+    <string name="title_button_signup">Inscription</string>
+    <string name="title_absent">Liste des Absents</string>
+    <string name="title_present">Liste des Présents</string>
+    <string name="present">Présents</string>
+    <string name="absents">Absents</string>
+    <string name="name">Nom</string>
+    <string name="email">Mail</string>
+    <string name="id">Identifiant</string>
+    <string name="pwd">Mot de passe</string>
+    <string name="button_change_pwd">Changer</string>
+    <string name="hint_old_pwd">Ancien Mot de Passe</string>
+    <string name="hint_new_pwd">Nouveau Mot de Passe</string>
+</resources>

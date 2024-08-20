@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/microsoftteams_image__5_"
+    tools:context=".ui.dashboard.ListesFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Fond avec image à supprimer si on veut pas le blanc sur le background-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80FFFFFF"
+        android:scaleType="centerCrop"/>
+
+    <!-- Carré blanc avec CardView -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <!-- Carré blanc -->
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="395dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom_edittext"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- Titre de la page -->
+            <TextView
+                android:id="@+id/textViewAbsentTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="serif"
+                android:text="@string/title_absent"
+                android:textAlignment="center"
+                android:textColor="@color/bordeau"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <!-- RecyclerView pour afficher la liste des absents -->
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewAbsent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewAbsentTitle"
+                    android:layout_marginTop="16dp" />
+            </ScrollView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

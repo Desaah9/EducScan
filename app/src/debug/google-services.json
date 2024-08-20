@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "723861041109",
+    "firebase_url": "https://autopresence-e9385-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "autopresence-e9385",
+    "storage_bucket": "autopresence-e9385.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723861041109:android:2db490db73fcb59e9a975c",
+        "android_client_info": {
+          "package_name": "fr.isen.perigot.educscan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1xtiZREuKM2uYmmnQCoB_bmzZ-M_O7jU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

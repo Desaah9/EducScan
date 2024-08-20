@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TabLayoutStyle" parent="Widget.Design.TabLayout">
+        <!-- Personnalisez les propriétés de style de TabLayout ici -->
+        <item name="android:background">@color/ap_white</item>
+
+        <!-- Texte des onglets -->
+        <item name="tabTextColor">@color/ap_gray</item>
+        <item name="tabSelectedTextColor">@color/bordeau</item>
+
+        <!-- Sous-ligne indicatrice -->
+        <item name="tabIndicatorColor">@color/bordeau</item>
+
+        <!-- Autres attributs de style pour TabLayout -->
+        <!-- ... -->
+    </style>
+</resources>

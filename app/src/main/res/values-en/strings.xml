@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">EducScan</string>
+    <string name="title_home">Shedule</string>
+    <string name="title_camembert">Presence/Absence Ratio</string>
+    <string name="title_logo_camembert">Ration</string>
+    <string name="title_dashboard">QRcode</string>
+    <string name="title_listes">Lists of Present/Absent</string>
+    <string name="title_logo_listes">Lists</string>
+    <string name="present">Presents</string>
+    <string name="absents">Absents</string>
+    <string name="title_parametres">Setting</string>
+    <string name="title_button_login">Login</string>
+    <string name="title_chpwd">Change Password</string>
+    <string name="button_chpwd">Confirm</string>
+    <string name="title_button_signup">Sign Up</string>
+    <string name="already_user">Already an user? Login</string>
+    <string name="first_name">First and Last Name</string>
+    <string name="title_absent">List of Absent</string>
+    <string name="title_present">List of Present</string>
+    <string name="name">Name</string>
+    <string name="email">E-mail</string>
+    <string name="id">Username</string>
+    <string name="pwd">Password</string>
+    <string name="button_change_pwd">Change</string>
+    <string name="hint_old_pwd">Old Password</string>
+    <string name="hint_new_pwd">New Password</string>
+</resources>
