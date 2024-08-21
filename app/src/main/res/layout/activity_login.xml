@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:background="@drawable/microsoftteams_image__5_"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".LoginActivity">
 
     <ImageView
@@ -22,8 +21,7 @@
         android:layout_height="158dp"
         android:layout_gravity="center"
         android:src="@drawable/logo_cercle"
-        app:cardCornerRadius="40dp"
-        />
+        app:cardCornerRadius="40dp" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -35,10 +33,10 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_gravity="center_horizontal"
-            android:padding="24dp"
-            android:background="@drawable/custom_edittext">
+            android:background="@drawable/custom_edittext"
+            android:orientation="vertical"
+            android:padding="24dp">
 
             <TextView
                 android:id="@+id/loginText"
@@ -56,22 +54,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                app:boxStrokeWidth="0dp"
                 app:startIconDrawable="@drawable/baseline_person_24"
-                app:startIconTint="@color/purple_700"
-                app:boxStrokeWidth="0dp">
+                app:startIconTint="@color/purple_700">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/username"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:id="@+id/username"
-                    android:background="@drawable/custom_edittext"
                     android:layout_marginTop="40dp"
-                    android:padding="8dp"
+                    android:background="@drawable/custom_edittext"
+                    android:drawablePadding="8dp"
                     android:hint="@string/id"
-                    android:textColor="@color/black"
-                    android:drawablePadding="8dp"/>
+                    android:padding="8dp"
+                    android:textColor="@color/black" />
             </com.google.android.material.textfield.TextInputLayout>
-
 
 
             <com.google.android.material.textfield.TextInputLayout
@@ -79,21 +76,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                app:boxStrokeWidth="0dp"
                 app:passwordToggleEnabled="true"
                 app:startIconDrawable="@drawable/baseline_lock_24"
-                app:startIconTint="@color/purple_700"
-                app:boxStrokeWidth="0dp">
+                app:startIconTint="@color/purple_700">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:id="@+id/password"
                     android:background="@drawable/custom_edittext"
+                    android:drawablePadding="8dp"
+                    android:hint="@string/pwd"
                     android:inputType="textPassword"
                     android:padding="8dp"
-                    android:hint="@string/pwd"
-                    android:textColor="@color/black"
-                    android:drawablePadding="8dp" />
+                    android:textColor="@color/black" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
