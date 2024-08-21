@@ -5,7 +5,7 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
 public class SharedViewModel extends ViewModel {
-        private MutableLiveData<Integer> nombreListPresent = new MutableLiveData<>();
+        private final MutableLiveData<Integer> nombreListPresent = new MutableLiveData<>();
 
         public LiveData<Integer> getNombreListPresent() {
             return nombreListPresent;

@@ -66,13 +66,13 @@ public class ChangepwdActivity extends AppCompatActivity {
             }
         });
 
-        /*
+
         changePasswordButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 changePassword();
             }
-        });*/
+        });
     }
 
     private Boolean validateUsername() {

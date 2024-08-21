@@ -21,7 +21,6 @@ import fr.isen.perigot.educscan.databinding.ActivityProfBinding;
 
 public class ProfActivity extends AppCompatActivity {
 
-    private ActivityProfBinding binding;
     private static final int MENU_LANGUAGE_FR = 1;
     private static final int MENU_LANGUAGE_EN = 2;
 
@@ -30,14 +29,13 @@ public class ProfActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
 
-        binding = ActivityProfBinding.inflate(getLayoutInflater());
+        fr.isen.perigot.educscan.databinding.ActivityProfBinding binding = ActivityProfBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_prof);
         AppBarConfiguration appBarConfiguration;
 
         Intent intent = getIntent();
-        boolean isStudent = intent.getBooleanExtra("isStudent", false);
 
         BottomNavigationView navViewProf = findViewById(R.id.nav_view_prof);
         // Passing each menu ID as a set of Ids because each

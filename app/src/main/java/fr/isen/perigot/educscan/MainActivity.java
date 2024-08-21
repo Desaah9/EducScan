@@ -1,5 +1,6 @@
 package fr.isen.perigot.educscan;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -74,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @SuppressLint("UnsafeIntentLaunch")
     private void setLocale(String lang) {
         // Créer un objet de type Locale avec la langue spécifiée
         Locale locale = new Locale(lang);
